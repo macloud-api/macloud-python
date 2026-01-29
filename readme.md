@@ -67,7 +67,6 @@ print("Error:", err)
 | `app_secert` | string | Yes | Your application secret for request signing |
 | `api_pre` | string | Yes | API base URL prefix (e.g., `https://api.local.com/V4/`) |
 | `timeout` | int | No | Request timeout in seconds (default: 30) |
-| `user_id` | int | No | Current user ID |
 | `logger` | object | No | Python logger object for logging requests/responses |
 | `host` | string | No | Custom Host header |
 | `proxy_url` | string | No | Proxy URL (e.g., `1.1.1.1:80`) |
